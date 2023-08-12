@@ -1,11 +1,11 @@
 name: Android CI 
   
- on: 
+on:
    push: 
      branches: 
        - master 
   
- jobs: 
+jobs: 
    android: 
      permissions: 
        contents: write 
